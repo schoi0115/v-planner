@@ -1,13 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
+import {
+  Link,
+  Route,
+  Switch,
+} from 'react-router-dom';
+
+import Planner from "./component/Planner"
 
 function App() {
   return (
-    <div className="App">
-      <h1>The Planner</h1>
-      <h2>First attempt</h2>
-      <h3>Deploy add attempy</h3>
-      <h3>Deploy add attempy</h3>
+    <div>
+      <Planner />
     </div>
   );
 }
