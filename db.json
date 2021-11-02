@@ -1,12 +1,12 @@
 {
-    "sushis": [
+    "travels": [
       {
         "id": 1,
-        "name": "Cancun"
+        "location": "Cancun"
       },
       {
         "id": 2,
-        "name": "Korea"
+        "location": "Korea"
       }
     ]
 }
