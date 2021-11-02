@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/v-planner/static/css/main.af659814.chunk.css",
-    "main.js": "/v-planner/static/js/main.bf31a98a.chunk.js",
-    "main.js.map": "/v-planner/static/js/main.bf31a98a.chunk.js.map",
+    "main.css": "/v-planner/static/css/main.80d32279.chunk.css",
+    "main.js": "/v-planner/static/js/main.39c88733.chunk.js",
+    "main.js.map": "/v-planner/static/js/main.39c88733.chunk.js.map",
     "runtime-main.js": "/v-planner/static/js/runtime-main.5b805fc7.js",
     "runtime-main.js.map": "/v-planner/static/js/runtime-main.5b805fc7.js.map",
     "static/css/2.f10f449b.chunk.css": "/v-planner/static/css/2.f10f449b.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.88c05f56.chunk.js.map": "/v-planner/static/js/3.88c05f56.chunk.js.map",
     "index.html": "/v-planner/index.html",
     "static/css/2.f10f449b.chunk.css.map": "/v-planner/static/css/2.f10f449b.chunk.css.map",
-    "static/css/main.af659814.chunk.css.map": "/v-planner/static/css/main.af659814.chunk.css.map",
+    "static/css/main.80d32279.chunk.css.map": "/v-planner/static/css/main.80d32279.chunk.css.map",
     "static/js/2.4b959d67.chunk.js.LICENSE.txt": "/v-planner/static/js/2.4b959d67.chunk.js.LICENSE.txt",
     "static/media/App.css": "/v-planner/static/media/vacationpicture.164da836.png"
   },
@@ -20,7 +20,7 @@
     "static/js/runtime-main.5b805fc7.js",
     "static/css/2.f10f449b.chunk.css",
     "static/js/2.4b959d67.chunk.js",
-    "static/css/main.af659814.chunk.css",
-    "static/js/main.bf31a98a.chunk.js"
+    "static/css/main.80d32279.chunk.css",
+    "static/js/main.39c88733.chunk.js"
   ]
 }
