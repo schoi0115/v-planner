@@ -14,6 +14,13 @@ function Home(){
             .then(setTravel)
         }, [])
 
+    function deleteTravels(id) {
+        const deleteTravel = travel.filter(travel => travel.id !== id)
+        setTravel(deleteTravel)
+    }
+
+
+
 
     return(
         <div className="backgroundPic">
@@ -23,15 +30,25 @@ function Home(){
             {travel.map((data) => {
                 
                 return (
+                    <div key={travel.id}>
                     <Schedule 
+                    travel={data}
                     data={data.location}
                     location={data.location}
                     belongings={data.belongings}
                     note={data.note}
                     method={data.method}
+
+                    deleteTravels={deleteTravels}
+
+                    
                     />
+                    </div>
+                    
                 )}
+                
             )}
+            
 
  
         </div>

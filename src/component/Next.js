@@ -1,10 +1,13 @@
-import React, { useState } from "react"
+import React, { useState} from "react"
+import { useHistory } from "react-router-dom";
 
 function Next({travel, setTravel}){
     const [location, setLoaction] = useState("")
     const [belongings, setbelongings] = useState("")
     const [note, setNote] = useState("")
     const [method, setMethod] = useState("")
+
+    let history = useHistory()
 
     function handleSubmit(e) {
         e.preventDefault();
@@ -24,7 +27,10 @@ function Next({travel, setTravel}){
             if (r.ok) {
               r.json()
               .then((data) => setTravel([...travel, data]));
+         
             }
+            history.push('/v-planner')
+            
           });
       }
 
@@ -60,10 +66,10 @@ function Next({travel, setTravel}){
                 onChange={(e) => setMethod(e.target.value)}
             >
 
-                <option value="1">Car</option>
-                <option value="2">Bus</option>
-                <option value="3">Air Plain</option>
-                <option value="3">Train</option>
+                <option value="Car">Car</option>
+                <option value="Bus">Bus</option>
+                <option value="Airplane">Airplane</option>
+                <option value="Train">Train</option>
             </select>
             <br />
          

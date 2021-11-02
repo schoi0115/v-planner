@@ -1,17 +1,17 @@
 {
   "travels": [
     {
-      "id": 1,
-      "location": "",
-      "belongings": "",
-      "note": "",
-      "method": ""
+      "location": "123",
+      "belongings": "213",
+      "note": "213",
+      "method": "Airplane",
+      "id": 1
     },
     {
-      "location": "Korea",
-      "belongings": "Everything",
-      "note": "Do not forget the passport",
-      "method": "3",
+      "location": "213",
+      "belongings": "123",
+      "note": "123",
+      "method": "",
       "id": 2
     }
   ]

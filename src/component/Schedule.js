@@ -1,5 +1,12 @@
-function Schedule({location, note, belongings, method}){
+import React from "react"
 
+function Schedule({location, note, belongings, method, travel, deleteTravels}){
+    function handleDeleteClick() {
+        fetch(`http://localhost:8000/travels/${travel.id}`, {
+          method: "DELETE",
+        });
+        deleteTravels(travel.id);
+      }
 
 
     return(
@@ -12,6 +19,10 @@ function Schedule({location, note, belongings, method}){
             We are traveling with {method}
          
             </h1>
+            <button onClick={handleDeleteClick}>
+                  Delete
+            </button>
+
         </div>
 
     )
