@@ -1,23 +1,26 @@
 {
   "files": {
-    "main.css": "/v-planner/static/css/main.d9c48c40.chunk.css",
-    "main.js": "/v-planner/static/js/main.acbce150.chunk.js",
-    "main.js.map": "/v-planner/static/js/main.acbce150.chunk.js.map",
-    "runtime-main.js": "/v-planner/static/js/runtime-main.d68bb357.js",
-    "runtime-main.js.map": "/v-planner/static/js/runtime-main.d68bb357.js.map",
-    "static/js/2.22f7e3a1.chunk.js": "/v-planner/static/js/2.22f7e3a1.chunk.js",
-    "static/js/2.22f7e3a1.chunk.js.map": "/v-planner/static/js/2.22f7e3a1.chunk.js.map",
-    "static/js/3.41fc3559.chunk.js": "/v-planner/static/js/3.41fc3559.chunk.js",
-    "static/js/3.41fc3559.chunk.js.map": "/v-planner/static/js/3.41fc3559.chunk.js.map",
+    "main.css": "/v-planner/static/css/main.af659814.chunk.css",
+    "main.js": "/v-planner/static/js/main.bf31a98a.chunk.js",
+    "main.js.map": "/v-planner/static/js/main.bf31a98a.chunk.js.map",
+    "runtime-main.js": "/v-planner/static/js/runtime-main.5b805fc7.js",
+    "runtime-main.js.map": "/v-planner/static/js/runtime-main.5b805fc7.js.map",
+    "static/css/2.f10f449b.chunk.css": "/v-planner/static/css/2.f10f449b.chunk.css",
+    "static/js/2.4b959d67.chunk.js": "/v-planner/static/js/2.4b959d67.chunk.js",
+    "static/js/2.4b959d67.chunk.js.map": "/v-planner/static/js/2.4b959d67.chunk.js.map",
+    "static/js/3.88c05f56.chunk.js": "/v-planner/static/js/3.88c05f56.chunk.js",
+    "static/js/3.88c05f56.chunk.js.map": "/v-planner/static/js/3.88c05f56.chunk.js.map",
     "index.html": "/v-planner/index.html",
-    "static/css/main.d9c48c40.chunk.css.map": "/v-planner/static/css/main.d9c48c40.chunk.css.map",
-    "static/js/2.22f7e3a1.chunk.js.LICENSE.txt": "/v-planner/static/js/2.22f7e3a1.chunk.js.LICENSE.txt",
+    "static/css/2.f10f449b.chunk.css.map": "/v-planner/static/css/2.f10f449b.chunk.css.map",
+    "static/css/main.af659814.chunk.css.map": "/v-planner/static/css/main.af659814.chunk.css.map",
+    "static/js/2.4b959d67.chunk.js.LICENSE.txt": "/v-planner/static/js/2.4b959d67.chunk.js.LICENSE.txt",
     "static/media/App.css": "/v-planner/static/media/vacationpicture.164da836.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.d68bb357.js",
-    "static/js/2.22f7e3a1.chunk.js",
-    "static/css/main.d9c48c40.chunk.css",
-    "static/js/main.acbce150.chunk.js"
+    "static/js/runtime-main.5b805fc7.js",
+    "static/css/2.f10f449b.chunk.css",
+    "static/js/2.4b959d67.chunk.js",
+    "static/css/main.af659814.chunk.css",
+    "static/js/main.bf31a98a.chunk.js"
   ]
 }
