@@ -1,24 +1,22 @@
 import './App.css';
 import React, { useState } from 'react';
-import Calendar from 'react-calendar';
+// import Calendar from 'react-calendar';
+// import 'react-calendar/dist/Calendar.css';
 
-import {
-  Link,
-  Route,
-  Switch,
-} from 'react-router-dom';
 
 import Planner from "./component/Planner"
+import Next from "./component/Next"
+import Calendar1 from './component/Calendar1';
 
 function App() {
-  const [value, onChange] = useState(new Date());
+  
+
   return (
     <div>
       <Planner />
-      <Calendar
-        onChange={onChange}
-        value={value}
-      />
+      <Calendar1 />
+      <Next />
+
 
     </div>
   );

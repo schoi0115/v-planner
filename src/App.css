@@ -11,10 +11,51 @@
 .backgroundPic {
   font-family: 'Sacramento',sans-serif;
   color: white;
-  height:800px ;
+  height:1200px ;
   background-image: url(vacationpicture.png);
   max-width: 100%;
   background-size: cover;
   background-attachment: fixed;
   margin-top: -3%;
+}
+/* .calendar{
+  margin-top: 2%;
+  margin-bottom: 5%;
+
+  background-color: red;
+
+} */
+
+
+.next {
+
+ 
+  height:800px ;
+  background-image: url(vacationpicture.png);
+  max-width: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.calendar{
+  font-family: 'Poppins',sans-serif;
+  font-weight:1000;
+  margin-top: -40%;
+ 
+  margin-left: 17%;
+  
+}
+
+
+ 
+.calendar-body{
+  margin-top: 2%;
+  border-radius: 5px;
+  width: 200%;
+  height: 200%;
+  box-shadow: 5px 5px 2px #ffffff;
+  margin-left: -2%;
+ 
+
+
+  
 }
