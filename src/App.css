@@ -10,28 +10,40 @@
 .margin {
   margin: 15px;
 }
+
+.marginNext{
+  position:relative;
+  right:1%;
+  top: 1%;
+}
 .nav-container{
   font-family: 'Poppins',sans-serif;
   margin-top:1%;
   text-align: right;
   font-weight: bold;
+  
+}
+
+.nav-container a{
+
+  font-size: 25px;
 }
 
 
 .backgroundPic {
   font-family: 'Sacramento',sans-serif;
   color: white;
-  height:1200px ;
+  height:1600px ;
   background-image: url(vacationpicture.png);
   max-width: 100%;
   background-size: cover;
   background-attachment: fixed;
-  margin-top: -8%;
+  margin-top: -10%;
 }
 
 
 .next {
-  height:800px ;
+  height:1600px ;
   background-image: url(vacationpicture.png);
   max-width: 100%;
   background-size: cover;
@@ -39,26 +51,45 @@
 }
 
 .calendar{
-  margin-top: -3%;
-  height:1600px ;
-  background-image: url(vacationpicture.png);
+  margin-top: -5%;
+  
+}
+.bgcolor{
+  height:1400px ;
+  background-image: url(vacationpictures2.jpg);
   max-width: 100%;
   background-size: cover;
-  background-attachment: absolute;
-
-  
+  background-attachment: fixed;
 }
-
 .calendar-body{
-  margin-left: 20%;
-  margin-top: 10%;
-
-
-
-  
+  margin-left: 63%;
+  margin-top: 9%;
 }
 
-.addVaction{
+.calendar-select-dates{
 
+  
+  font-family: 'Poppins',sans-serif;
+  font-weight: bold;
+  font-size:50px;
+  text-align: center;
+  color: black;
+  
+}
+.calendar-select-dates-defualt{
+    
+  font-family: 'Poppins',sans-serif;
+  font-weight: bold;
+  font-size:50px;
+  color: rgb(255, 255, 255);
+  margin-left: 30%;
+}
+
+.add-event-btn {
+  font-family: 'Poppins',sans-serif;
+  font-weight: bold;
+  font-size:50px;
+  text-align: center;
+  color: rgb(255, 255, 255);
   
 }

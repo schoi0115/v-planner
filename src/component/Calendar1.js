@@ -2,18 +2,17 @@ import React, { useState } from "react"
 import Calendar from "react-calendar"
 import 'react-calendar/dist/Calendar.css';
 import Next from "./Next"
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 function Calendar1(){
     const [date, setDate] = useState(new Date());
 
     function moveToNext(){
         return (
-            <Link>
-                <Next />
-            </Link>
+ <h1>
+     is this a thing?
+     </h1>
         )
-
     }
 
 
@@ -37,18 +36,18 @@ function Calendar1(){
             />
             </div>
             {date.length > 0 ? (
-            <p>
-                <span>Start:</span>{' '}
+            <p className="calendar-select-dates">
+                <span>Start: </span>
                 {date[0].toDateString()}
-                &nbsp;|&nbsp;
-                <span>End:</span> {date[1].toDateString()}
+                
+                <span> ~ End:</span> {date[1].toDateString()}
                 <br />
-                <button className="addVaction" onClick={moveToNext}>Add Event</button>
+                <NavLink to="/next" className="add-event-btn">Add Event</NavLink>
             </p>
             ) : (
             <p>
-                <span>Default selected date:</span>{' '}
-                {date.toDateString()}
+                <span className="calendar-select-dates-defualt">Selected Date: {date.toDateString()}</span>
+                
                 
             </p>
             

@@ -17,18 +17,26 @@ function NavBar() {
         <nav>
         
                 <NavLink className='margin' to='/'>
+
                 Home 
+          
                 </NavLink> 
-                <NavLink className='margin' to='/next'>
-                Next 
-                </NavLink>
-              <NavLink className='margin' to='/calendar'>
+                <NavLink className='margin' to='/calendar'>
                 Calendar 
                 </NavLink>
+
+
+
   
         </nav>
 
-
+        <div>
+            <NavLink  to='/next'>
+                <a className='marginNext'>
+                Next 
+                </a>
+            </NavLink>
+        </div>
       </div>
     );
  
