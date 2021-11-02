@@ -4,9 +4,19 @@
 
 .title {
   margin-left: 10%;
-  margin:6%;
+  margin:9%;
   font-size: 500%;
 }
+.margin {
+  margin: 15px;
+}
+.nav-container{
+  font-family: 'Poppins',sans-serif;
+  margin-top:1%;
+  text-align: right;
+  font-weight: bold;
+}
+
 
 .backgroundPic {
   font-family: 'Sacramento',sans-serif;
@@ -16,7 +26,7 @@
   max-width: 100%;
   background-size: cover;
   background-attachment: fixed;
-  margin-top: -3%;
+  margin-top: -8%;
 }
 
 
@@ -29,19 +39,26 @@
 }
 
 .calendar{
-  font-family: 'Poppins',sans-serif;
-  font-weight:1000;
-  margin-top: -28%;
-  text-align: center;
-  font-size: 18px;
+  margin-top: -3%;
+  height:1600px ;
+  background-image: url(vacationpicture.png);
+  max-width: 100%;
+  background-size: cover;
+  background-attachment: absolute;
+
+  
 }
 
-/* .calendar-body{
-  margin-top: 2%;
-  border-radius: 5px;
-  width: 100%;
-  height: 100%;
-  box-shadow: 5px 5px 2px #ffffff;
-  margin-left: 3%;
+.calendar-body{
+  margin-left: 20%;
+  margin-top: 10%;
+
+
+
   
-} */
+}
+
+.addVaction{
+
+  
+}

@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 
 
-function Planner(){
+function Home(){
 
 
     return(
@@ -15,4 +15,4 @@ function Planner(){
     )
 }
 
-export default Planner
+export default Home

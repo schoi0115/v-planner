@@ -1,9 +1,20 @@
 import React, { useState } from "react"
 import Calendar from "react-calendar"
 import 'react-calendar/dist/Calendar.css';
+import Next from "./Next"
+import { Link } from "react-router-dom";
 
 function Calendar1(){
     const [date, setDate] = useState(new Date());
+
+    function moveToNext(){
+        return (
+            <Link>
+                <Next />
+            </Link>
+        )
+
+    }
 
 
     return(
@@ -31,12 +42,16 @@ function Calendar1(){
                 {date[0].toDateString()}
                 &nbsp;|&nbsp;
                 <span>End:</span> {date[1].toDateString()}
+                <br />
+                <button className="addVaction" onClick={moveToNext}>Add Event</button>
             </p>
             ) : (
             <p>
                 <span>Default selected date:</span>{' '}
                 {date.toDateString()}
+                
             </p>
+            
             )}
       </div>
     );

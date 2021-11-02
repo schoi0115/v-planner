@@ -4,7 +4,12 @@ function Next(){
 
     return(
     <div className="next">
-        <h1></h1>
+        <form>
+            <input 
+                placeholder="Where are you going?"
+            /> 
+
+        </form>
     </div>
     )
 }
