@@ -6,14 +6,13 @@ import { Link, NavLink } from "react-router-dom";
 
 function Calendar1(){
     const [date, setDate] = useState(new Date());
+    const [addEvent, setAddevent] =useState(false)
 
-    function moveToNext(){
-        return (
- <h1>
-     is this a thing?
-     </h1>
-        )
+    function showForm(){
+        setAddevent(!addEvent)
     }
+
+
 
 
     return(
@@ -42,7 +41,35 @@ function Calendar1(){
                 
                 <span> ~ End:</span> {date[1].toDateString()}
                 <br />
-                <NavLink to="/next" className="add-event-btn">Add Event</NavLink>
+                {/* <NavLink to="/next" className="add-event-btn">Add Event</NavLink> */}
+
+                <div className="add-event-btn" onClick={showForm}>{addEvent? (
+                    <div >
+                        <h1 className="add-event-btn">
+                            Add Event
+                        </h1>
+                        <form
+                        >
+                            <input placeholder="Location" />
+                            <input placeholder="Car / Flight / Train" />
+                            <input placeholder="Hello?" />
+                            <input placeholder="hm ...." />
+
+                        </form>
+                    </div>
+
+
+                ):(
+                    <div>
+                    <h1 className="add-event-btn">Add Event</h1>
+                    </div>
+                    
+                    
+                    )}
+
+                    </div>
+                
+                
             </p>
             ) : (
             <p>

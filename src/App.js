@@ -15,10 +15,10 @@ function App() {
 
   return (
     <div>
-
-      <div className="bgcolor">
       <NavBar />
-      <main >
+      <div className="bgcolor">
+
+      
         <Switch >
           <Route exact path="/" >
             <Home 
@@ -35,7 +35,7 @@ function App() {
 
    
         </Switch>
-      </main>
+    
     </div>
       
 
