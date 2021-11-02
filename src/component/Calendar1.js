@@ -48,37 +48,32 @@ function Calendar1(){
                         <h1 className="add-event-btn">
                             Add Event
                         </h1>
-                        <form
-                        >
+                        <form>
                             <input placeholder="Location" />
                             <input placeholder="Car / Flight / Train" />
                             <input placeholder="Hello?" />
                             <input placeholder="hm ...." />
-
                         </form>
                     </div>
-
-
                 ):(
                     <div>
                     <h1 className="add-event-btn">Add Event</h1>
-                    </div>
-                    
-                    
+                    </div>                    
                     )}
-
                     </div>
-                
-                
             </p>
             ) : (
             <p>
                 <span className="calendar-select-dates-defualt">Selected Date: {date.toDateString()}</span>
-                
-                
             </p>
-            
             )}
+            <div>
+            <div>     
+                <h1>
+                    Select Your Vacation Date!
+                </h1>
+            </div>
+            </div>
       </div>
     );
   }

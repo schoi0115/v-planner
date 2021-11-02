@@ -16,7 +16,7 @@ function NavBar() {
 
         <nav>
         
-                <NavLink className='margin' to='/'>
+                <NavLink className='margin' to='/v-planner'>
 
                 Home 
           

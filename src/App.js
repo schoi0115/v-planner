@@ -15,12 +15,13 @@ function App() {
 
   return (
     <div>
-      <NavBar />
-      <div className="bgcolor">
-
       
+      <div className="bgcolor">
+      
+      <NavBar />
+      <main>
         <Switch >
-          <Route exact path="/" >
+          <Route exact path="/v-planner" >
             <Home 
             />
           </Route>
@@ -35,6 +36,7 @@ function App() {
 
    
         </Switch>
+        </main>
     
     </div>
       
