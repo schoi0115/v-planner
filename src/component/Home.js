@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import Schedule from './Schedule';
 
 
 
@@ -19,7 +20,18 @@ function Home(){
             <h3> .</h3>
             <h1 className="title">Shawn ♡ Barbies Planner</h1>
 
-            {travel.map((data)=> data.location)}
+            {travel.map((data) => {
+                
+                return (
+                    <Schedule 
+                    data={data.location}
+                    location={data.location}
+                    belongings={data.belongings}
+                    note={data.note}
+                    method={data.method}
+                    />
+                )}
+            )}
 
  
         </div>

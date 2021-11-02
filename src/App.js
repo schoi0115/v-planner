@@ -11,7 +11,7 @@ import Calendar1 from './component/Calendar1';
 import NavBar from './component/NavBar';
 
 function App() {
-  const [location, setLocation] = useState("")
+  const [travel, setTravel] = useState("")
   
 
   return (
@@ -28,8 +28,8 @@ function App() {
           </Route>
           <Route exact path="/next" >
             <Next 
-            location={location}
-            setLocation={setLocation}
+            travel={travel}
+            setTravel={setTravel}
             />
           </Route>
           <Route exact path="/calendar" >

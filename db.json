@@ -1,12 +1,18 @@
 {
-    "travels": [
-      {
-        "id": 1,
-        "location": "Cancun"
-      },
-      {
-        "id": 2,
-        "location": "Korea"
-      }
-    ]
+  "travels": [
+    {
+      "id": 1,
+      "location": "",
+      "belongings": "",
+      "note": "",
+      "method": ""
+    },
+    {
+      "location": "Korea",
+      "belongings": "Everything",
+      "note": "Do not forget the passport",
+      "method": "3",
+      "id": 2
+    }
+  ]
 }
