@@ -39,9 +39,10 @@
 .calendar{
   font-family: 'Poppins',sans-serif;
   font-weight:1000;
-  margin-top: -40%;
+  margin-top: -28%;
+  text-align: center;
  
-  margin-left: 17%;
+
   
 }
 
@@ -53,7 +54,8 @@
   width: 200%;
   height: 200%;
   box-shadow: 5px 5px 2px #ffffff;
-  margin-left: -2%;
+  margin-left: 3%;
+
  
 
 

@@ -15,7 +15,6 @@ function Calendar1(){
                 value={date}
                 selectRange={true}
 
-
                 nextLabel='month>'
                 nextAriaLabel='Go to next month'
                 next2Label='year>'
