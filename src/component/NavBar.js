@@ -1,7 +1,5 @@
 import "../App.css";
-
 import React from "react";
-import { Link } from 'react-router-dom';
 import { NavLink } from "react-router-dom";
 
 
@@ -11,35 +9,35 @@ function NavBar() {
 
 
 
-    return (
-      <div className="nav-container">
+  return (
+    <div className="nav-container">
 
-        <nav>
-        
-                <NavLink className='margin' to='/v-planner'>
+      <nav>
 
-                Home 
-          
-                </NavLink> 
-                <NavLink className='margin' to='/calendar'>
-                Calendar 
-                </NavLink>
+        <NavLink className='margin' to='/v-planner'>
+
+          Home
+
+        </NavLink>
+        <NavLink className='margin' to='/v-planner/calendar'>
+          Calendar
+        </NavLink>
 
 
 
-  
-        </nav>
 
-        <div>
-            <NavLink  to='/next'>
-                <a className='marginNext'>
-                Next 
-                </a>
-            </NavLink>
-        </div>
+      </nav>
+
+      <div>
+        <NavLink to='/v-planner/next'>
+          <a className='marginNext'>
+            Make Your Future Vacation
+          </a>
+        </NavLink>
       </div>
-    );
- 
+    </div>
+  );
+
 }
 
 export default NavBar;

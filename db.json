@@ -1,18 +1,13 @@
 {
   "travels": [
     {
-      "location": "123",
-      "belongings": "213",
-      "note": "213",
-      "method": "Airplane",
-      "id": 1
-    },
-    {
-      "location": "213",
-      "belongings": "123",
-      "note": "123",
+      "location": "",
+      "belongings": "",
+      "note": "",
       "method": "",
-      "id": 2
+      "starts": "",
+      "ends": "",
+      "id": 1
     }
   ]
 }

@@ -19,6 +19,17 @@ function Home(){
         setTravel(deleteTravel)
     }
 
+    function editTravels(updateTravel) {
+        const updateTravelArray = travel.map((travel) => {
+           if (travel.updateTravel === updateTravel){
+               return updateTravel
+           } else {
+               return travel
+           }
+        })
+        setTravel(updateTravelArray)
+    }
+
 
 
 
@@ -40,6 +51,7 @@ function Home(){
                     method={data.method}
 
                     deleteTravels={deleteTravels}
+                    editTravels={editTravels}
 
                     
                     />

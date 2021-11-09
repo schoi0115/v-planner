@@ -11,6 +11,26 @@
 .margin {
   margin: 15px;
 }
+input{
+  height: 30px;
+  margin: 2%;
+  width: 300px;
+  text-align: center;
+  
+}
+.select-design{
+  height: 30px;
+  margin: 2%;
+  width: 300px;
+  text-align: center;
+  
+}
+
+textarea{
+  width: 1000px;
+  height: 400px;
+  margin-top: 3%;
+}
 
 .marginNext{
   position:relative;
@@ -45,10 +65,13 @@
 
 .next {
   height:1600px ;
-  background-image: url(vacationpicture.png);
-  max-width: 100%;
+  background-image: url(vacationpictures2.jpg);
+
   background-size: cover;
   background-attachment: fixed;
+
+  line-height: 0.1;
+
 }
 
 .calendar{
